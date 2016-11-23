@@ -1,0 +1,52 @@
+JOBS: 
+Id = 0, Burst Time = 83, Remaining Time = 83, Priority = 6
+Id = 1, Burst Time = 77, Remaining Time = 77, Priority = 5
+Id = 2, Burst Time = 93, Remaining Time = 93, Priority = 5
+Id = 3, Burst Time = 86, Remaining Time = 86, Priority = 2
+Id = 4, Burst Time = 49, Remaining Time = 49, Priority = 1
+Id = 5, Burst Time = 62, Remaining Time = 62, Priority = 7
+Id = 6, Burst Time = 90, Remaining Time = 90, Priority = 9
+Id = 7, Burst Time = 63, Remaining Time = 63, Priority = 6
+Id = 8, Burst Time = 40, Remaining Time = 40, Priority = 6
+Id = 9, Burst Time = 72, Remaining Time = 72, Priority = 6
+
+Sorting by priority
+JOBS: 
+Id = 4, Burst Time = 49, Remaining Time = 49, Priority = 1
+Id = 3, Burst Time = 86, Remaining Time = 86, Priority = 2
+Id = 1, Burst Time = 77, Remaining Time = 77, Priority = 5
+Id = 2, Burst Time = 93, Remaining Time = 93, Priority = 5
+Id = 0, Burst Time = 83, Remaining Time = 83, Priority = 6
+Id = 7, Burst Time = 63, Remaining Time = 63, Priority = 6
+Id = 8, Burst Time = 40, Remaining Time = 40, Priority = 6
+Id = 9, Burst Time = 72, Remaining Time = 72, Priority = 6
+Id = 5, Burst Time = 62, Remaining Time = 62, Priority = 7
+Id = 6, Burst Time = 90, Remaining Time = 90, Priority = 9
+
+ROUND ROBIN; time Slice: 25, 
+JOB ID = 4, Start time = 0, End time = 49, Priority = 1
+JOB ID = 3, Start time = 49, End time = 135, Priority = 2
+JOB ID = 1, Start time = 135, Remaining time = 52, Priority = 5
+JOB ID = 2, Start time = 160, Remaining time = 68, Priority = 5
+JOB ID = 1, re-start time = 185, Remaining time = 27, Priority = 5
+JOB ID = 2, re-start time = 210, Remaining time = 43, Priority = 5
+JOB ID = 1, re-start time = 235, Remaining time = 2, Priority = 5
+JOB ID = 2, re-start time = 260, Remaining time = 18, Priority = 5
+JOB ID = 1, re-start time = 285, End time = 287, Priority = 5
+JOB ID = 2, re-start time = 287, End time = 305, Priority = 5
+JOB ID = 0, Start time = 305, Remaining time = 58, Priority = 6
+JOB ID = 7, Start time = 330, Remaining time = 38, Priority = 6
+JOB ID = 8, Start time = 355, Remaining time = 15, Priority = 6
+JOB ID = 9, Start time = 380, Remaining time = 47, Priority = 6
+JOB ID = 0, re-start time = 405, Remaining time = 33, Priority = 6
+JOB ID = 7, re-start time = 430, Remaining time = 13, Priority = 6
+JOB ID = 8, re-start time = 455, End time = 470, Priority = 6
+JOB ID = 9, re-start time = 470, Remaining time = 22, Priority = 6
+JOB ID = 0, re-start time = 495, Remaining time = 8, Priority = 6
+JOB ID = 7, re-start time = 520, End time = 533, Priority = 6
+JOB ID = 9, re-start time = 533, End time = 555, Priority = 6
+JOB ID = 0, re-start time = 555, End time = 563, Priority = 6
+JOB ID = 5, Start time = 563, End time = 625, Priority = 7
+JOB ID = 6, Start time = 625, End time = 715, Priority = 9
+Average Response Time: 290.200000
+Average Turnaround Time: 423.700000

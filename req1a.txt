@@ -1,0 +1,26 @@
+JOBS: 
+Id = 0, Burst Time = 83, Remaining Time = 83, Priority = 1
+Id = 1, Burst Time = 77, Remaining Time = 77, Priority = 2
+Id = 2, Burst Time = 93, Remaining Time = 93, Priority = 3
+Id = 3, Burst Time = 86, Remaining Time = 86, Priority = 4
+Id = 4, Burst Time = 49, Remaining Time = 49, Priority = 5
+Id = 5, Burst Time = 62, Remaining Time = 62, Priority = 6
+Id = 6, Burst Time = 90, Remaining Time = 90, Priority = 7
+Id = 7, Burst Time = 63, Remaining Time = 63, Priority = 8
+Id = 8, Burst Time = 40, Remaining Time = 40, Priority = 9
+Id = 9, Burst Time = 72, Remaining Time = 72, Priority = 6
+
+FCFS: 
+JOB ID = 0, Start time = 0, End time = 83
+JOB ID = 1, Start time = 83, End time = 160
+JOB ID = 2, Start time = 160, End time = 253
+JOB ID = 3, Start time = 253, End time = 339
+JOB ID = 4, Start time = 339, End time = 388
+JOB ID = 5, Start time = 388, End time = 450
+JOB ID = 6, Start time = 450, End time = 540
+JOB ID = 7, Start time = 540, End time = 603
+JOB ID = 8, Start time = 603, End time = 643
+JOB ID = 9, Start time = 643, End time = 715
+Average Response Time: 345.900000
+Average Turnaround Time: 417.400000
+
